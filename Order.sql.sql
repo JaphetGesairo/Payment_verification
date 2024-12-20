@@ -1,0 +1,7 @@
+CREATE TABLE `Order` (
+    OrderID INT PRIMARY KEY AUTO_INCREMENT,
+    CustomerName VARCHAR(255) NOT NULL,
+    Item VARCHAR(255) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    OrderedDate DATE NOT NULL
+);
